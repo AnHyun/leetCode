@@ -12,7 +12,6 @@ var twoSum = function(nums, target) {
     for(let i=0; i<nums.length; i++) {
       let start = target - nums[i];
       let end = nums.indexOf(start, i+1);
-      console.log(start)
       if (end !== -1) {
         return [i, end]; 
       }
