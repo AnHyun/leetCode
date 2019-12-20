@@ -10,11 +10,8 @@
  * @return {number}
  */
 var findPeakElement = function(nums) {
-    // let maxNum = Math.max(...nums)
-    // return nums.indexOf(maxNum)
-
-    let first = nums[0]
-    let hash = {first: 0}
+    let maxNum = Math.max(...nums)
+    return nums.indexOf(maxNum)
 
 };
 // @lc code=end
